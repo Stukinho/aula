@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device=wifth, initial-scale=1.0">
+     <title> Formularios 2 ano O</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xeojkkpy" method="post">
+        <p>digite seu nome:</p>
+        <input type="text" name="nome" placeholder="Ex: Jotinha do Grau" required>
+        <br>
+        <p>digite seu email:</p>
+        <input type="email" name="email" placeholder="Ex:xxxxxx@gmail.com" required>
+        <br>
+         <p>Você trabalha?</p>
+        <input type="radio" name="work" value="Sim" required> Sim
+        <input type="radio" name="work" value="Não" required> Não
+        <br>
+        <p> Selecione seu Estado:</p>
+        <select name="estado" id="" required>
+         <option value="1">Sólido</option>
+         <option value="2">Líquido</option>
+         <option value="3">Gasoso</option>
+        </select>
+         <br>
+         <p>Selecione sua idade:</p>
+        <select name="idade" id="" required>
+         <option value="1">ente 1 e 10</option>
+         <option value="2">entre 11 e 17</option>
+         <option value="3">entre 18 e 29</option>
+         <option value="4">entre 30 e 59</option>
+         <option value="5">mais de 60</option>
+        </select>
+        <br>
+        <p> Deixe aqui sua reclamação:</p>
+        <textarea name="feedback" id="" required></textarea>
+        <br>
+        <input type="checkbox" name="novidades" checked> Li e concordo
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Cancelar</button>
+    </form>
+</body>
+</html>
